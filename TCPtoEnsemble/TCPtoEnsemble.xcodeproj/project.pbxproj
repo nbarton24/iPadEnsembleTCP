@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3459411D33F7E300978540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3459401D33F7E300978540 /* AppDelegate.swift */; };
+		CB3459431D33F7E300978540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3459421D33F7E300978540 /* ViewController.swift */; };
+		CB3459461D33F7E300978540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3459441D33F7E300978540 /* Main.storyboard */; };
+		CB3459481D33F7E300978540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3459471D33F7E300978540 /* Assets.xcassets */; };
+		CB34594B1D33F7E300978540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3459491D33F7E300978540 /* LaunchScreen.storyboard */; };
+		CB3459581D33F88B00978540 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3459531D33F88B00978540 /* ysocket.swift */; };
+		CB3459591D33F88B00978540 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = CB3459541D33F88B00978540 /* ytcpsocket.c */; };
+		CB34595A1D33F88B00978540 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3459551D33F88B00978540 /* ytcpsocket.swift */; };
+		CB34595B1D33F88B00978540 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = CB3459561D33F88B00978540 /* yudpsocket.c */; };
+		CB34595C1D33F88B00978540 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3459571D33F88B00978540 /* yudpsocket.swift */; };
+		CB44AF2D1D345E5D0068E83B /* ABC1.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB44AF2C1D345E5D0068E83B /* ABC1.txt */; };
+		CB44AF2F1D3497AC0068E83B /* MessageSet2.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB44AF2E1D3497AC0068E83B /* MessageSet2.txt */; };
+		CB44AF361D34A5FA0068E83B /* EnsembleConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB44AF351D34A5FA0068E83B /* EnsembleConnection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB34593D1D33F7E300978540 /* TCPtoEnsemble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPtoEnsemble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3459401D33F7E300978540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB3459421D33F7E300978540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB3459451D33F7E300978540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB3459471D33F7E300978540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB34594A1D33F7E300978540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB34594C1D33F7E300978540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3459521D33F88A00978540 /* TCPtoEnsemble-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCPtoEnsemble-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB3459531D33F88B00978540 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = "../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/ysocket.swift"; sourceTree = "<group>"; };
+		CB3459541D33F88B00978540 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = "../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/ytcpsocket.c"; sourceTree = "<group>"; };
+		CB3459551D33F88B00978540 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ytcpsocket.swift; path = "../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/ytcpsocket.swift"; sourceTree = "<group>"; };
+		CB3459561D33F88B00978540 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = "../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/yudpsocket.c"; sourceTree = "<group>"; };
+		CB3459571D33F88B00978540 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yudpsocket.swift; path = "../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/yudpsocket.swift"; sourceTree = "<group>"; };
+		CB44AF2C1D345E5D0068E83B /* ABC1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ABC1.txt; path = ../ABC1.txt; sourceTree = "<group>"; };
+		CB44AF2E1D3497AC0068E83B /* MessageSet2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MessageSet2.txt; path = ../MessageSet2.txt; sourceTree = "<group>"; };
+		CB44AF351D34A5FA0068E83B /* EnsembleConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsembleConnection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB34593A1D33F7E300978540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3459341D33F7E300978540 = {
+			isa = PBXGroup;
+			children = (
+				CB34593F1D33F7E300978540 /* TCPtoEnsemble */,
+				CB34593E1D33F7E300978540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB34593E1D33F7E300978540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB34593D1D33F7E300978540 /* TCPtoEnsemble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB34593F1D33F7E300978540 /* TCPtoEnsemble */ = {
+			isa = PBXGroup;
+			children = (
+				CB44AF341D34A0CE0068E83B /* View */,
+				CB44AF331D34A0C90068E83B /* Controller */,
+				CB44AF321D34A0C10068E83B /* Model */,
+				CB44AF301D34A03F0068E83B /* TCP */,
+				CB44AF311D34A07D0068E83B /* Messages */,
+				CB3459401D33F7E300978540 /* AppDelegate.swift */,
+				CB3459441D33F7E300978540 /* Main.storyboard */,
+				CB3459471D33F7E300978540 /* Assets.xcassets */,
+				CB3459491D33F7E300978540 /* LaunchScreen.storyboard */,
+				CB34594C1D33F7E300978540 /* Info.plist */,
+				CB3459521D33F88A00978540 /* TCPtoEnsemble-Bridging-Header.h */,
+			);
+			path = TCPtoEnsemble;
+			sourceTree = "<group>";
+		};
+		CB44AF301D34A03F0068E83B /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				CB3459531D33F88B00978540 /* ysocket.swift */,
+				CB3459541D33F88B00978540 /* ytcpsocket.c */,
+				CB3459551D33F88B00978540 /* ytcpsocket.swift */,
+				CB3459561D33F88B00978540 /* yudpsocket.c */,
+				CB3459571D33F88B00978540 /* yudpsocket.swift */,
+			);
+			name = TCP;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB44AF311D34A07D0068E83B /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				CB44AF2C1D345E5D0068E83B /* ABC1.txt */,
+				CB44AF2E1D3497AC0068E83B /* MessageSet2.txt */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		CB44AF321D34A0C10068E83B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB44AF351D34A5FA0068E83B /* EnsembleConnection.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB44AF331D34A0C90068E83B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB3459421D33F7E300978540 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB44AF341D34A0CE0068E83B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB34593C1D33F7E300978540 /* TCPtoEnsemble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB34594F1D33F7E300978540 /* Build configuration list for PBXNativeTarget "TCPtoEnsemble" */;
+			buildPhases = (
+				CB3459391D33F7E300978540 /* Sources */,
+				CB34593A1D33F7E300978540 /* Frameworks */,
+				CB34593B1D33F7E300978540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPtoEnsemble;
+			productName = TCPtoEnsemble;
+			productReference = CB34593D1D33F7E300978540 /* TCPtoEnsemble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3459351D33F7E300978540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nick Barton";
+				TargetAttributes = {
+					CB34593C1D33F7E300978540 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CB3459381D33F7E300978540 /* Build configuration list for PBXProject "TCPtoEnsemble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3459341D33F7E300978540;
+			productRefGroup = CB34593E1D33F7E300978540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB34593C1D33F7E300978540 /* TCPtoEnsemble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB34593B1D33F7E300978540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB34594B1D33F7E300978540 /* LaunchScreen.storyboard in Resources */,
+				CB44AF2D1D345E5D0068E83B /* ABC1.txt in Resources */,
+				CB3459481D33F7E300978540 /* Assets.xcassets in Resources */,
+				CB3459461D33F7E300978540 /* Main.storyboard in Resources */,
+				CB44AF2F1D3497AC0068E83B /* MessageSet2.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3459391D33F7E300978540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3459581D33F88B00978540 /* ysocket.swift in Sources */,
+				CB3459431D33F7E300978540 /* ViewController.swift in Sources */,
+				CB34595B1D33F88B00978540 /* yudpsocket.c in Sources */,
+				CB3459591D33F88B00978540 /* ytcpsocket.c in Sources */,
+				CB3459411D33F7E300978540 /* AppDelegate.swift in Sources */,
+				CB34595A1D33F88B00978540 /* ytcpsocket.swift in Sources */,
+				CB44AF361D34A5FA0068E83B /* EnsembleConnection.swift in Sources */,
+				CB34595C1D33F88B00978540 /* yudpsocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB3459441D33F7E300978540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3459451D33F7E300978540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB3459491D33F7E300978540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB34594A1D33F7E300978540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB34594D1D33F7E300978540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB34594E1D33F7E300978540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3459501D33F7E300978540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TCPtoEnsemble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npb.TCPtoEnsemble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TCPtoEnsemble/TCPtoEnsemble-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB3459511D33F7E300978540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TCPtoEnsemble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npb.TCPtoEnsemble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TCPtoEnsemble/TCPtoEnsemble-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3459381D33F7E300978540 /* Build configuration list for PBXProject "TCPtoEnsemble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB34594D1D33F7E300978540 /* Debug */,
+				CB34594E1D33F7E300978540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB34594F1D33F7E300978540 /* Build configuration list for PBXNativeTarget "TCPtoEnsemble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3459501D33F7E300978540 /* Debug */,
+				CB3459511D33F7E300978540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB3459351D33F7E300978540 /* Project object */;
+}
